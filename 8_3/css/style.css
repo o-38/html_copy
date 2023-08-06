@@ -1,0 +1,94 @@
+@charset "utf-8";
+/*BEM*/
+.main-img{
+  background-image: url("../img/main-img.png");
+  background-size: contain;
+  height: 600px;
+  margin: 50px 50px 30px 50px;
+}
+header,ul{
+  display: flex;
+}
+ul{
+  margin-top: 8px;
+  margin-left: 20px;
+}
+a{
+  color: #3b3b3b;
+}
+.about__item{
+  background-image: url("../img/title-img.png");
+  background-size: contain;
+  padding: 15px 55px;
+  margin-left: 50px;
+}
+.about__item_link{
+  margin-left: 30px;
+  text-decoration: none;
+  font-family: "HiraMinProN-W3", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.content{
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+}
+.concept-img{
+  background-image: url("../img/sub-img.png");
+  padding: 250px;
+  margin-top: 60px;
+  margin-right: 55px;
+  margin-bottom: 50px;
+}
+.concept__content{
+  margin-top: 250px;
+  width: 36%;
+  margin-left: 30px;
+}
+.concept__content-title,.work__content-title{
+  font-size: 25px;
+  font-family: "HiraMinProN-W3";
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.concept__content-sub,.work__content-sub{
+  font-size: 12px;
+  font-family: "HiraMinProN-W3";
+  font-weight: 550;
+  margin-bottom: 30px;
+}
+.concept__content-text,.work__content-text{
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: "HiraMinProN-W3";
+}
+.content1{
+  display: flex;
+  justify-content: center;
+}
+.work-img{
+  background-image: url("../img/sub-img.png");
+  padding: 250px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  margin-left: 80px;
+}
+.work__content{
+  margin-top: 200px;
+  width: 25%;
+  margin-left: 60px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+.last-img{
+  margin-bottom: 30px;
+}
+.copyright{
+  font-size: 12px;
+  font-family: "HiraMinProN-W3";
+}

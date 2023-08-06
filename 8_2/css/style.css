@@ -1,0 +1,111 @@
+@charset "utf-8";
+/*BEM*/
+.main__box{
+  display: flex;
+}
+.content1{
+  margin-right: 60px;
+}
+.main__box-img{
+  background-image: url("../img/main-img.png");
+  background-size: contain;
+  height: 700px;
+  width: 720px;
+}
+.ol{
+	counter-reset: listnum; /* カウンターをリセット */
+	list-style: none; /* 標準のスタイルは消す */
+}
+.sub__box1,.main__box-content,.process__content{
+  margin-left: 75px;
+}
+.process__box{
+  margin-left: 95px;
+}
+.title{
+  font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+.explanation{
+  margin-bottom: 45px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.material__content,.process__content{
+  font-size: 21px;
+  border-bottom: solid #dcdcdc;
+  padding-bottom:10px;
+}
+.material__content{
+  margin-bottom: 10px;
+}
+.process__content{
+  margin-bottom: 20px;
+}
+
+.material__box{
+  display: flex;
+  flex-wrap: wrap;
+}
+dl dt{
+  width: 95%;
+  border-bottom: dotted #dcdcdc;
+  margin-top: 13px;
+  padding-bottom: 8px;
+  font-size: 1em;
+  font-family: "Palatino Linotype", 
+
+}
+dl dd{
+  width: 5%;
+  border-bottom: dotted #dcdcdc;
+  margin-top: 15px;
+  padding-bottom: 8px;
+  font-size: 1em;
+  font-weight: 400;
+}
+.sub__box2{
+  margin-top: 40px;
+}
+ol li{
+  margin-top: 8px;
+  border-bottom: dotted #dcdcdc;
+  padding-bottom:9px;
+}
+.btn{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.btn__box{
+  border: solid black;
+  width: 150px;
+  padding: 20px 40px;
+  margin: auto;
+}
+.btn__c a{
+  color: black;
+  text-decoration: none;
+}
+.sns{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.sns li{
+  margin: 0 10px 0 10px;
+  font-size: 11px;
+}
+.sns li a{
+  color: black;
+}
+p{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 11px;
+}
+
+
+

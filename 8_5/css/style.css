@@ -1,0 +1,240 @@
+@charset "utf-8";
+/*BEM*/
+body{
+  background: #dcdcdc;
+}
+.nv{
+  display: flex;
+}
+.logo{
+  font-size: 33px;
+  font-weight: 535;
+  padding: 25px 0 0 110px;
+  letter-spacing: 0.3cm;
+}
+.content_nav{
+  display: flex;
+  padding-top: 35px;
+  padding-left: 43px;
+}
+.nav{
+  font-size: 14px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+a:link, a:visited, a:hover, a:active {
+  color: black;
+  text-decoration: none;
+}
+.form{
+  margin: 0 0 0 auto;
+  border: solid black;
+  background-color: black;
+  right: 0;
+  top: 0;
+}
+.form:hover{
+  opacity: 0.7;
+}
+.text_box{
+  padding: 33px 65px;
+  font-size: 12px;
+  color: #fff;
+}
+.main_img{
+  background-image: url("../img/8_5img.png");
+  background-size: cover;
+  background-position: center;
+  padding: 330px;
+}
+.news__item{
+  width: 1100px;
+  margin: 100px 0 120px 210px;
+}
+.news__item-title,.about__item-title,.business__item-title,.info__item-title{
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 0.3cm;
+}
+.news__item-sub,.about__item-sub,.business__item-sub,.info__item-sub{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.news__item-line,.about__item-line,.business__item-line,.info__item-line{
+  width: 50px;
+  border: solid black 0.5px ;
+}
+.main__news{
+  padding-top: 55px;
+  display: flex;
+  font-weight: 100;
+}
+.main__news-box{
+  display: flex;
+}
+.main__news-content{
+  margin-right: 100px;
+  padding-top: 10px;
+}
+.main__news-textbox{
+  border: solid black;
+  background-color: black;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.main__news-sub{
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+}
+.main__news-dete,.main__news-text{
+  font-size: 14px;
+}
+.main__news-dete{
+  margin-top: 5px;
+}
+.main__news-text{
+  margin-top: 10px;
+}
+.main__news-line{
+  border-left: solid black 1px;
+  margin-right: 10px;
+  height: 80px;
+}
+.sub_img{
+  background-image: url("../img/sub_img.png");
+  object-position: cover;
+  height: 400px;
+  width: 62%;
+  vertical-align: bottom;
+}
+.about-content{
+  display: flex;
+}
+.about__item{
+  width: 45%;
+  padding: 180px 60px 0 60px;
+}
+.about__item-textbox{
+  padding-top: 40px;
+}
+p{
+  font-size: 14px;
+  line-height: 2;
+}
+.business__item{
+  padding: 120px 0 20px 210px;
+}
+.business__item-container{
+  display: flex;
+  justify-content: space-between;
+}
+.business__item-container1{
+  display: flex;
+  flex-direction: column;
+  margin: 150px 30px 50px 130px;
+}
+.flex-column-container2{
+  display: flex;
+  flex-direction: column;
+  margin: 80px 340px 50px 30px;
+}
+.flex-item{
+  padding: 20px 170px;
+}
+.business__item-textbox{
+  margin-top: 30px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.business__item-box{
+  display: flex;
+}
+.business__item-hyphen{
+  width: 8px;
+  border-bottom: solid black 1px;
+  margin-bottom: 6px;
+}
+.item1{
+  background-image: url("../img/box1.png");
+  height: 200px;
+  margin-top: 10px;
+}
+.item2{
+  background-image: url("../img/box2.png");
+  height: 200px;
+  margin-top: 10px;
+}
+.item3{
+  background-image: url("../img/box3.png");
+  height: 200px;
+  margin-top: 10px;
+}
+.item4{
+  background-image: url("../img/box4.png");
+  height: 200px;
+  margin-top: 10px;
+}
+.info__item{
+  border: solid #fff;
+  background: #fff;
+  width: 580px;
+  height: 630px;
+  margin: 50px 0 140px 200px;
+}
+.info__item-box{
+  padding: 100px 50px 60px 60px;
+}
+.company__item-box{
+  display: flex;
+  margin-bottom: 20px;
+}
+.company__item{
+  padding-left: 60px;
+}
+.company__item-object{
+  width: 6em;
+}
+.company__item-content1{
+  margin-bottom: 20px;
+}
+.company__item-object,.company__item-content,.company__item-content1{
+  font-size: 14px;
+}
+.img{
+  background-image: url("../img/lastimg.png");
+  background-size: contain;
+  height: 400px;
+  position: relative;
+  bottom: 450px;
+  left:450px;
+}
+footer{
+background: #fff;
+padding-bottom: 20px;
+}
+.last-content{
+  width: 85%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: center;
+}
+.address{
+  margin-right: 100px;
+  margin-top: 50px;
+  text-align: left;
+}
+.address-info{
+  font-size: 14.5px;
+  margin-bottom: 6px;
+}
+.logo2{
+  margin-top: 50px;
+}
+.last-text{
+  margin-left: 220px;
+  margin-top: 33px;
+  font-size: 5px;
+}
