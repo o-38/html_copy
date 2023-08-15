@@ -2,26 +2,24 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Recipe Diary</title>
+  <meta name="description" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <main id="top" class="main__box">
+  <main>
     <div class="content">
-      <div class="main__box-img"></div>
-    </div>
-    <div class="content1">
-      <div class="main__box-content">
-        <h1 class="title">ひよこ豆とアボカドのタコス</h1>
-        <div class="explanation">
-          たっぷりのひよこ豆とレンズ豆にアボカドとトマトを添えて、少しライムを絞ったらおいしいタコスの出来上がりです。
-        </div>
+      <div class="main__box-img">
+        <img src="./img/main-img.png" alt>
       </div>
-      <div class="sub__box1">
-        <h2 class="material__content">材料（2人分）</h2>
+      <div class="content1">
+        <h1 class="title">ひよこ豆とアボガドのタコス</h1>
+        <p>
+          たっぷりのひよこ豆とレンズ豆にアボガドとトマトを添えて、少しライムを絞ったらおいしいタコスのできあがりです。
+        </p>
+        <h2 class="content-title">材料（2人分）</h2>
         <dl class="material__box">
           <dt>テキストテキスト</dt>
           <dd>1個</dd>
@@ -34,9 +32,7 @@
           <dt>テキストテキスト</dt>
           <dd>1個</dd>
         </dl>
-      </div>
-      <div class="sub__box2"></div>
-        <h2 class="process__content">作り方</h2>
+        <h2 class="content-title">作り方</h2>
         <ol class="process__box">
           <li>テキストテキストテキストテキスト</li>
           <li>テキストテキストテキストテキスト</li>
@@ -46,15 +42,11 @@
         </ol>
       </div>
     </div>
+    <div class="btn__c">
+      <a href="#">レシピ一覧を見る</a>
+    </div>
   </main>
-  <div class="btn__c">
-    <a href="#">
-      <div class="btn">
-        <div class="btn__box">レシピ一覧を見る</div>
-      </div>
-    </a>
-  </div>
-  <footer>
+  <footer id="footer">
     <ul class="sns">
       <li><a href="#">Instagram</a></li>
       <li><a href="#">Twitter</a></li>

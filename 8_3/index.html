@@ -2,45 +2,61 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Wooden Jewelry</title>
+  <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <div id="main-img"><link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <div class="main-img"></div>
+    <img src="./img/main-img.png" alt> 
+  </div>
   <header id="header">
-    <a href="#"><h1 class="about__item"></h1></a>
+    <h1 class="about__item">
+      <a href="index.html">
+        <img src="./img/title-img.png" alt="Wooden Jewelry">
+      </a>
+    </h1>
     <nav>
       <ul>
-        <li><a class="about__item_link" href="#concept">Concept</a></li>
-        <li><a class="about__item_link" href="#work">Work</a></li>
-        <li><a class="about__item_link" href="mailto:xxx@xxx.xxx.com">Contact</a></li>
+        <li><a href="#concept">Concept</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="mailto:xxx@xxx.xxx.com">Contact</a></li>
       </ul>
     </nav>
   </header> 
-  <section id="concept" class="content">
-    <div class="concept-img"></div>
-    <div class="concept__content">
-      <h2 class="concept__content-title">私たちの考えるジュエリーとは</h2>
-      <div class="concept__content-sub">Concept</div>
-      <p class="concept__content-text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-      <p class="concept__content-text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+  <div class="container">
+    <main>
+      <section id="concept" class="content">
+        <div class="section-img">
+          <img src="./img/sub-img.png" alt>
+        </div>
+        <div class="text">
+          <h2 class="section-title">私たちの考えるジュエリーとは</h2>
+          <span class="section-title-sub">Concept</span>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
+      </section>
+      <section id="work" class="content">
+        <div class="text">
+          <h2 class="section-title">ハンドメイドにこだわる理由</h2>
+          <span class="section-title-sub">Work</span>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
+        <div class="section-img">
+          <img src="./img/sub-img.png" alt>
+        </div>
+      </section>
+    </main>
+  <footer id="footer">
+    <div class="logo">
+      <img src="./img/title-img.png" alt="Wooden Jewelry">
     </div>
-  </section>
-  <section id="work" class="content1">
-    <div class="work__content">
-      <h2 class="work__content-title">ハンドメイドにこだわる理由</h2>
-      <div class="work__content-sub">Work</div>
-      <p class="work__content-text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-      <p class="work__content-text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-    </div>
-    <div class="work-img"></div>
-  </section>
-  <footer>
-    <div class="about__item last-img"></a></div>
-    <div class="copyright">©️ 2021 Wooden Jewelry</div>
+    <p>©️ 2021 Wooden Jewelry</p>
   </footer>
 </body>
 </html>

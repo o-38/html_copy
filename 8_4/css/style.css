@@ -1,190 +1,141 @@
 @charset "utf-8";
 /*BEM*/
 body{
-  background-color: #fff;
+  font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  font-size: 0.875rem;
+  color: #2a2a2a;
 }
-.back_img{
+#header{
+  height: 100vh;
   background-image: url("../img/main_img.png");
   background-size: cover;
-  background-position: center;
-  padding: 350px;
+  background-position: center top;
+  background-repeat: no-repeat;
   margin-bottom: 80px;
   position: relative;
 }
-.logo{
-  background-image: url("../img/sub_img.png");
-  padding: 22px;
-  width: 80px;
-  background-size: contain;
+#header .site-title{
   position: absolute;
   top: 30px;
   right: 30px;
 }
-.top2{
+img{
+  max-width: 100%;
+}
+#magazine{
   text-align: center;
+  margin-bottom: 80px;
 }
-.main-text{
-  margin-bottom: 40px;
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
 }
-.main-text p,.back__img-textbox p,.catalog__item-textbox p,.antiqe__item-textbox p{
-  font-size: 14px;
-  line-height: 1.5;
-}
-.text{
-  margin-bottom: 30px;
-  font-size: 22px;
-}
-.back__img-textbox p{
-  margin-bottom: 50px;
-}
-.antiqe__item-textbox p{
-  font-size: 14px;
-  line-height: 1.5;
-  margin-bottom: 100px;
+.sec-title{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 .img__boxs{
   display: flex;
-  justify-content: center;
-  margin-bottom: 80px;
+  justify-content: space-between;
+  margin-top: 40px;
 }
-.img__boxs-1{
-  background-image: url("../img/img1.png");
-  height: 550px;
-  width: 500px;
-  margin-right: 10px;
+#magazine .img__boxs .item{
+  width: 49%;
   position: relative;
+} 
+a{
+  text-decoration: none;
 }
-.img__boxs-2{
-  background-image: url("../img/img2.png");
-  height: 550px;
-  width: 500px;
-  margin-left: 10px;
-  position: relative;
-}
-.img__boxs-textbox{
-  border:  rgba(0,0,0,0.5);
+#magazine .img__boxs .item .textbox{
+  max-width: 290px;
+  color: #fff;
+  font-weight: bold;
   background-color: rgba(0,0,0,0.5);
-  padding: 10px 20px;
-  width: 250px;
+  padding: 15px 0;
+  margin: 0 auto;
   position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 0;
+  right: 0;
 }
-.img__boxs-text{
-  color: #fff;
-  font-size: 15px;
-  font-weight: bold;
+#magazine .img__boxs .item .img__boxs-title{
+  font-size: 1.25rem;
+  margin-bottom: 2px;
 }
-.img__boxs-title{
-  color: #fff;
-  font-size: 17px;
-  font-weight: bold;
-}
-.top3{
-  text-align: center;
-}
-.back__img{
+#fashion{
+  height: 520px;
   background-image: url("../img/sub_img2.png");
   background-size: cover;
-  background-position: center;
-  padding: 220px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 60px;
   margin-bottom: 80px;
-  position: relative;
-}
-.back__img-textbox,.read{
-  position: absolute;
-  top:60px;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
-.back__img-text{
-  font-size: 20px;
-  margin-bottom: 20px;
 }
 .button{
-  border: solid black;
-  padding: 15px 20px;
-  width: 90px;
-  font-size: 12px;
-  text-decoration: none;
-  font-weight: 700;
+  color: #2a2a2a;
+  border: solid 1px #2a2a2a;
+  display: inline-block;
+  padding: 14px 36px;
+  font-size: 0.750rem;
+  margin-top: 30px;
 }
-a{
-  color: #3b3b3b;
+.catalog-antique{
+  background-color: #f5f5f5;
+  padding: 60px 0;
 }
-.top4{
-  background: #e5e4e6;
-}
-.catalog__item,.antiqe__item{
+.catalog-antique .img__boxs{
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
-.catalog__item-img,.antiqe__item-img{
-  height: 500px;
-  width: 500px;
-  margin-top: 60px;
-  margin-bottom: 70px;
+.catalog-antique .item p{
+  margin-bottom: 30px;
+  text-align: left;
 }
-.catalog__item-img{
-  background-image: url("../img/img3.png");
-  margin-right: 22px;
+.catalog-antique .item img{
+  width: 100%;
 }
-.antiqe__item-img{
-  background-image: url("../img/img4.png");
-  margin-left: 22px;
-}
-.catalog__item-textbox,.antiqe__item-textbox{
+.catalog-antique .item{
+  width: 48%;
   text-align: center;
-  margin-top: 160px;
 }
-.catalog__item-textbox{
-  margin-left: 22px;
+#footer{
+  background: #333;
+  font-size: 0.750rem;
 }
-.antiqe__item-textbox{
-  margin-right: 22px;
-}
-.catalog__item-text,.antiqe__item-text{
-  font-size: 22px;
-  margin-bottom: 50px;
-}
-footer{
-  background: #3b3b3b;
-  height: 350px;
-  margin-bottom: 70px;
-}
-.last-img{
-  background-image: url("../img/sub_img.png");
-  padding: 22px;
-  width: 30%;
-  height: 8px;
-  background-repeat: no-repeat;
-  margin-top: 100px;
-}
-.info{
-  width: 1100px;
+#footer .img__boxs{
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  padding-top: 50px;
-}
-.info-1,.info-2{
-  width: 33%;
-  margin-top: 50px;
   color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.title{
-  margin-bottom: 15px;
+#footer .item:first-child{
+  padding: 60px 0;
 }
-.text5{
+#footer .item{
+  width: 33%;
   line-height: 2;
-  font-size: 12.5px;
 }
-.copyrught{
+#footer .item .title{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+li{
+  list-style: none;
+}
+#footer .item li::before{
+  content: "-";
+  margin-right: 5px;
+}
+#footer .copyright{
+  background-color: #fff;
   text-align: center;
-  margin-bottom: 40px;
-  font-size: 12px;
+  padding: 30px 0;
 }
-.img__boxs-1:hover,.img__boxs-2:hover,.button:hover,.last-img:hover{
+.button:hover,#magazine .item:hover,#footer img:hover{
   opacity: 0.7;
 }
